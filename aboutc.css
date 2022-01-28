@@ -1,0 +1,114 @@
+body{
+    min-height: 100vh;
+    background: linear-gradient(#2d1d49,#c7c5c5 );
+}
+header{
+    /* margin: 0;
+    padding:0; */
+    box-sizing:border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+header .logo
+{
+    font-family: 'montserrat',sans-serif;
+    color: rgb(255, 253, 253);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header ul
+{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: rgb(241, 236, 236);
+    border-radius: 20px;
+}
+header ul li a:hover
+{
+    background: #fff;
+    color: #2b1055;
+}
+.info p{
+    font-family: 'Cantora One',serif;
+    color: rgb(40, 10, 68);
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-right: 150px;
+    padding-left: 150px;
+    
+}
+.info h2{
+    font-family: 'montserrat',sans-serif ;
+    font-weight: 800;
+    color:#ffffff;
+    padding-bottom: 0px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+   
+}
+.info img{
+    width: 30%;
+    padding-left: 490px;
+    margin-top: 10px;
+}
+h1 {
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+  }
+  
+  h2 {
+    color: #000000;
+    font-family: 'Bungee Inline',sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-top: 90px;
+    padding-left: 500px;
+    margin-bottom: -50px;
+  }
+  
+  h3 {
+    color: #f2eef7;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 650px;
+    font-weight:900px;
+  }
+  hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 60px auto;
+  }
+  header ul li a:hover ,
+header ul li a.active
+{
+    background: #fff;
+    color: #2b1055;
+}
